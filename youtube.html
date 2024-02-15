@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,500&display=swap" rel="stylesheet">
+
+
+
+        <title>
+            youtube
+        </title>
+        <style>
+            .thumbnail1
+            {
+                display: block;
+                width: 300px;
+                object-fit: cover;
+                object-position: right;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+
+
+            }
+            .search
+            {
+                font-size: 20px;
+                margin-left: 20px;
+                
+            }
+            .title
+            {
+                width: 250px;
+                font-family: 'Roboto',arial;
+                font-weight: 500;
+
+            }
+            
+            .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12
+            {
+                display: inline-block;
+                border-radius: 30px;
+                vertical-align: top;
+                
+            }
+            .acc
+            {
+                width: 50px;
+                vertical-align: top;
+                border-radius: 70px;
+                margin-top: 20px;
+                
+                
+            }
+
+            .img-fell,.matter-fell
+            {
+                display: inline-block;
+            }
+
+            .img-fell{
+                vertical-align: top;
+            }
+
+            .matter
+            {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+
+            }
+
+            .total
+            {
+                display: grid;
+                grid-template-columns: 200px 1fr;
+            }
+
+            .leftside
+            {
+                display: grid;
+                grid-template-rows: 100px 100px 100px 100px 100px 100px 1fr;
+                
+            }
+
+            .ttotal
+            {
+                display: grid;
+                grid-template-rows: 90px 1fr;
+            }
+
+            .top-total
+            {
+                height: 55px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+               
+                
+            }
+
+            .left-section
+            {
+                background-color:;
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .middle-section
+            {
+                
+                flex: 1;
+                margin-left: 30px;
+                margin-right: px;
+                max-width: 500px;
+            }
+
+
+            .right-section
+            {
+                
+                width: 200px;
+            }
+
+            .threedots
+            {
+                width: 15px;
+                margin-right: 15px;
+                margin-left: 30px;
+            }
+
+            .youtube-logo
+            {
+                width: 100px;
+            }
+            
+
+            .right-section
+            {
+                display: flex;
+                flex-direction: row;
+                
+
+                
+            }
+
+            .profile-pic
+
+            {
+                border-radius: 40px;
+                margin-right: px;
+            }
+
+
+            .threelines
+            {
+                width: 35px;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+
+
+            .profilepic
+            {
+                width: 50px;
+                border-radius: 35px;
+                margin-top: 4px;
+            }
+
+            .video-button
+            {
+                margin-right: 40px;
+            }
+
+
+            .noti
+            {
+                margin-right: 40px;
+                margin-left: 40px;
+            }
+            .logo
+            {
+                margin-top: 3px;
+            }
+
+            .middle-section
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+
+            .searchicon
+            {
+                width: 50px;
+                height: 50px ;
+            }
+
+            .mic{
+                width: 50px;
+                height: 50px;
+                margin-left: 10px;
+                border-radius: 30px;
+            }
+
+            .searchbar
+            {
+                flex: 1;
+                height: 47px;
+                width: 300px;
+
+            }
+
+            .sub
+            {
+                margin-left: 4px;
+
+
+            }
+
+            .subs
+            {
+                margin-left: 20px;
+            }
+
+
+            
+            
+
+
+
+
+
+            
+
+
+            
+
+            
+                
+            
+                        
+
+
+        </style>
+
+    </head>
+    
+    <body>
+
+        <div class="ttotal">
+            <div class="top-total" style="background-color: white;">
+                <div class="left-section">
+                    <div class="three-dots">
+                        <img src="thumbnail/threelines.png" class="threelines">
+                    </div>
+
+                    <div class="youtube-logo">
+                        <img class="logo" src="thumbnail/youtube.png" style="width: 150px;">
+                    </div>
+                </div>
+
+                <div class="middle-section">
+                    <div class="search-bar">
+                        <input class="searchbar" type="text" placeholder="search">
+                    </div>
+
+                    <div>
+                        <button class="searchicon">
+                            <img src="thumbnail/Screenshot 2024-02-14 195529.png" style="width: 30px;">
+                            <div class="tooltip">
+                                
+
+                            </div>
+                        </button>
+                    </div>
+
+
+                    <div>
+                        <button class="mic">
+                            <img src="thumbnail/Screenshot 2024-02-14 195543.png" style="width: 30px;">
+                        </button>
+                    </div>
+                    
+
+                </div>
+
+                <div class="right-section">
+                    
+
+                    </div class="videobutton">
+                        <img  class="video-button" src="thumbnail/videobutton.png" >
+
+                    <div>
+
+                    </div class="9block">
+                        <img src="thumbnail/9block.png" alt="">
+                    <div>
+
+                    </div>
+
+
+                    <div class="notification" >
+                        <img class="noti" src="thumbnail/notification.png" >
+                    </div>
+
+                    <div class="profile-pic">
+                        <img class="profilepic" src="thumbnail/Screenshot 2024-02-12 232942.png" >
+                    </div>
+                </div>
+            </div>
+            <div>
+
+                <div class="total">
+
+                    <div class="leftside">
+                        <div>
+                            <img  src="thumbnail/home.png" style="width: 35px;" style="margin-left: 12px;" >
+                            <p>
+                                home
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <img class="sub" src="thumbnail/Screenshot 2024-02-14 005530.png" style="width: 35px;" style="margin-left: 20px;" >
+                            <p>
+                                explore
+                            </p>
+                        </div>
+
+                        <div>
+                            <img class="subs" src="thumbnail/Screenshot 2024-02-14 005539.png" style="width: 35px;" >
+                            <p>
+                                subscripction
+                            </p>
+                        </div>
+
+                        <div>
+                            <img class="orig" src="thumbnail/Screenshot 2024-02-14 005544.png" style="width: 35px;" >
+                            <p>
+                                orignals
+                            </p>
+                        </div>
+
+                        <div>
+                            <img class="short" src="thumbnail/download.png" style="width: 35px;" >
+                            <p>
+                                shorts
+                            </p>
+                        </div>
+
+                        <div>
+                            <img class="lib" src="thumbnail/Screenshot 2024-02-14 005539.png" style="width: 35px;" >
+                            <p>
+                                library
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                    
+
+                        <div >
+                            <div class="a1">
+                                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=2s">
+                                    <div class="img-pro">
+                                        <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 202950.png">
+                                    </div>
+                                    <div class="matter">
+                                        <div class="img-fell">
+                                            <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203217.png">
+                                        </div>
+                                        <div class="matter-fell">
+                                            <p class="title">
+                                                <strong>Talking Tech and AI with google CEO
+                                                sunder pichai!</strong>
+                                            </p>
+                                            <p class="author">
+                                                Marques Brownlee
+                                            </p>
+                                            <p class="views">
+                                                2.3m views . 6 months ago
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                            </div>
+
+
+                            <div class="a2">
+                                <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203000.png" style="height: 169px;">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203229.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                Try Not TO Laugh Challenge #9
+                                            </strong>                                       
+                                        </p>
+                                        <p class="author">
+                                            Markipiler
+                                        </p>
+                                        <p class="views">
+                                            2.3m views . 6 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                                
+                            </div>
+
+
+                            <div class="a3">
+                                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203009.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203235.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong> Crazy Tik Tok Taken Moments Before Disaster </strong>
+                                            
+                                        </p>
+                                        <p class="author">
+                                            SSSniperWolf
+                                        </p>
+                                        <p class="views">
+                                            12m views . 1 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                                
+                            </div>
+
+
+
+                            <div class="a4">
+                                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                            <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203023.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203243.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong> The Simplest Math Problem NO One can solve  </strong>
+                                        </p>
+                                        <p class="author">
+                                            Veritasium
+                                        </p>
+                                        <p class="views">
+                                            18m views . 4 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                                
+                            </div>
+
+
+
+                            <div class="a5">
+                                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203030.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203250.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                           <strong>
+                                                Maximum sum Subarray
+                                           </strong>
+                                        </p>
+                                        <p class="author">
+                                            CSS DOjo
+                                        </p>
+                                        <p class="views">
+                                            2.3m views . 6 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                                
+                            </div>
+
+
+
+                            <div class="a6">
+                                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                                
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203054.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203254.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                Anything you can fit in the circle i'll play for 
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            MrBeast
+                                        </p>
+                                        <p class="views">
+                                            141m views . 6 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                                
+                            </div>
+
+
+                            <div class="a7">
+                                <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203103.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203303.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                why Planes Don't FLy Over Tibet
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            RealLifeLore
+                                        </p>
+                                        <p class="views">
+                                            6.6m views . 1 year ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <div class="a8">
+                                <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203110.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203309.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                Inside The World'S Biggest PAssenger PLane 
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            Tech Vision
+                                        </p>
+                                        <p class="views">
+                                            3.7m views . 6 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <div class="a9">
+                                <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203120.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203322.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                The SECRET To SUper Human Strength
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            ThenX
+                                        </p>
+                                        <p class="views">
+                                            20m views . 3 years  ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+
+                            <div class="a10">
+                                <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203135.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203329.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                HOW THe World's Largest Cruise Ship Makes 30,000...
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            Business Insider
+                                        </p>
+                                        <p class="views">
+                                            14m views . 1 year ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+
+                            <div class="a11">
+                                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203152.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203336.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            <strong>
+                                                Dubai's Crazy Underwater Train 
+                                            </strong>
+                                        </p>
+                                        <p class="author">
+                                            Destination Tips  
+                                        </p>
+                                        <p class="views">
+                                            3m views . 6 months ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+
+                            <div class="a12">
+                                <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+
+
+
+                                <div class="img-pro">
+                                    <img class="thumbnail1" src="thumbnail/Screenshot 2024-02-14 203206.png">
+                                </div>
+                                <div class="matter">
+                                    <div class="img-fell">
+                                        <img  class="acc"  src="thumbnail/Screenshot 2024-02-14 203341.png">
+                                    </div>
+                                    <div class="matter-fell">
+                                        <p class="title">
+                                            What Would happen if you didn't drint water??
+                                        </p>
+                                        <p class="author">
+                                            Ted-Ed
+                                        </p>
+                                        <p class="views">
+                                            12m views . 5 years  ago
+                                        </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                      
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
